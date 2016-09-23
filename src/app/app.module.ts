@@ -5,12 +5,15 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { DatabindingComponent } from './databinding/databinding.component';
+import { PropertyBidingComponent } from './databinding/property-biding.component';
+import { PropertyBindingComponent } from './databinding/property-binding.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     DatabindingComponent,
+    PropertyBindingComponent,
   ],
   imports: [
     BrowserModule,
